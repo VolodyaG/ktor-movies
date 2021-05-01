@@ -23,6 +23,11 @@ dependencies {
     implementation("io.ktor:ktor-server-core:$ktor_version")
     implementation("io.ktor:ktor-jackson:$ktor_version")
     implementation("io.ktor:ktor-server-netty:$ktor_version")
+    implementation("io.ktor:ktor-html-builder:$ktor_version")
+    implementation("io.ktor:ktor-auth:$ktor_version")
+    implementation("io.ktor:ktor-client-cio:$ktor_version")
+    implementation("io.ktor:ktor-client-jackson:$ktor_version")
+
     implementation("ch.qos.logback:logback-classic:$logback_version")
 
     runtimeOnly("org.postgresql:postgresql:42.2.20")
